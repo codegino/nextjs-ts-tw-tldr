@@ -1,6 +1,9 @@
 {
-  "name": "nextjs-tailwind-typescript-tldr",
-  "private": true,
+  "name": "nextjs-typescript-tailwind-boilerplate",
+  "author": {
+    "name": "Carlo Gino Catapang",
+    "url": "https://carlogino.com"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",

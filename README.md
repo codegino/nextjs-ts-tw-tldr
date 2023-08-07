@@ -1,4 +1,7 @@
-# Next.js, TypeScript, Tailwind, Jest, Playwright, Storybook example
+# Next.js, TypeScript, Tailwind Boilerplate
+
+A very lean NextJS boilerplate with TypeScript and Tailwind support. Plus all
+the goodness of ESLint and Prettier!
 
 ## Dependencies
 
@@ -7,35 +10,23 @@
 - [NodeJS](https://nodejs.org/en/)
 - [NVM](https://github.com/nvm-sh/nvm)
 
+> You can either use `yarn` or `pnpm`; simply delete `package-lock.json` and run
+> with your package manager of choice
+
 ### Install dependencies
 
 ```sh
-yarn install
+npm install
 ```
 
 ### Running the application
 
 ```sh
-yarn dev
+npm run dev
 ```
 
-### Running "Unit tests"
+### Build the application
 
 ```sh
-# For watch mode
-yarn test
-# For single run
-yarn test:ci
-```
-
-### Running "End to End tests"
-
-```sh
-yarn test:e2e
-```
-
-### Running Storybook
-
-```sh
-yarn storybook
+npm run build
 ```
