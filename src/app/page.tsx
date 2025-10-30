@@ -8,12 +8,27 @@ function IndexPage() {
         Hello there, <span className="animate-bounce inline-block">👋</span>
       </h1>
       <h2>This page is built with:</h2>
-      <p>NextJS: v{json.dependencies.next}</p>
-      <p>React: v{json.dependencies.react}</p>
-      <p>Typescript: v{json.devDependencies.typescript}</p>
-      <p>Tailwind: v{json.devDependencies.tailwindcss}</p>
-      <p>ESLint: v{json.devDependencies.eslint}</p>
-      <p>Prettier: v{json.devDependencies.prettier}</p>
+      <p>
+        NextJS: v<span className="italic">{json.dependencies.next}</span>
+      </p>
+      <p>
+        React: v<span className="italic">{json.dependencies.react}</span>
+      </p>
+      <p>
+        Typescript: v
+        <span className="italic">{json.devDependencies.typescript}</span>
+      </p>
+      <p>
+        Tailwind: v
+        <span className="italic">{json.devDependencies.tailwindcss}</span>
+      </p>
+      <p>
+        ESLint: v<span className="italic">{json.devDependencies.eslint}</span>
+      </p>
+      <p>
+        Prettier: v
+        <span className="italic">{json.devDependencies.prettier}</span>
+      </p>
     </main>
   );
 }
