@@ -3,12 +3,12 @@ import json from '../../package.json';
 
 function IndexPage() {
   const stack = [
-    { name: 'Next.js', version: json.dependencies.next },
-    { name: 'React', version: json.dependencies.react },
-    { name: 'TypeScript', version: json.devDependencies.typescript },
-    { name: 'Tailwind CSS', version: json.devDependencies.tailwindcss },
-    { name: 'ESLint', version: json.devDependencies.eslint },
-    { name: 'Prettier', version: json.devDependencies.prettier },
+    {name: 'Next.js', version: json.dependencies.next},
+    {name: 'React', version: json.dependencies.react},
+    {name: 'TypeScript', version: json.devDependencies.typescript},
+    {name: 'Tailwind CSS', version: json.devDependencies.tailwindcss},
+    {name: 'ESLint', version: json.devDependencies.eslint},
+    {name: 'Prettier', version: json.devDependencies.prettier},
   ];
 
   return (
@@ -31,7 +31,7 @@ function IndexPage() {
         </div>
 
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-          {stack.map((item) => (
+          {stack.map(item => (
             <div
               key={item.name}
               className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition-shadow hover:shadow-md dark:border-gray-700 dark:bg-gray-800"
