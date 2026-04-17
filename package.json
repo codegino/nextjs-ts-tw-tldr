@@ -1,6 +1,6 @@
 {
   "name": "nextjs-typescript-tailwind-boilerplate",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "author": {
     "name": "Carlo Gino Catapang",
     "url": "https://carlogino.com"
@@ -11,21 +11,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "16.2.1",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "next": "16.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.2.2",
-    "@types/node": "25.2.3",
+    "@types/node": "25.6.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "autoprefixer": "10.4.27",
-    "eslint": "10.1.0",
-    "eslint-config-next": "16.2.1",
+    "autoprefixer": "10.5.0",
+    "eslint": "10.2.0",
+    "eslint-config-next": "16.2.4",
     "eslint-config-prettier": "10.1.8",
-    "prettier": "3.8.1",
+    "prettier": "3.8.3",
     "tailwindcss": "4.2.2",
-    "typescript": "6.0.2"
+    "typescript": "6.0.3"
   }
 }
