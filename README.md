@@ -1,7 +1,7 @@
 # Next.js, TypeScript, Tailwind Boilerplate
 
 A very lean NextJS boilerplate with TypeScript and Tailwind support. Plus all
-the goodness of ESLint and Prettier!
+the goodness of oxlint and Prettier!
 
 ## Dependencies
 

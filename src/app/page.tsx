@@ -7,7 +7,7 @@ function IndexPage() {
     {name: 'React', version: json.dependencies.react},
     {name: 'TypeScript', version: json.devDependencies.typescript},
     {name: 'Tailwind CSS', version: json.devDependencies.tailwindcss},
-    {name: 'ESLint', version: json.devDependencies.eslint},
+    {name: 'Oxlint', version: json.devDependencies.oxlint},
     {name: 'Prettier', version: json.devDependencies.prettier},
   ];
 
