@@ -12,7 +12,7 @@
     "lint": "oxlint"
   },
   "dependencies": {
-    "next": "16.3.0",
+    "next": "16.3.4",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -20,11 +20,11 @@
     "@tailwindcss/postcss": "4.3.3",
     "@types/node": "25.9.5",
     "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.4",
-    "autoprefixer": "10.5.4",
-    "oxlint": "1.78.0",
+    "@types/react-dom": "19.2.7",
+    "autoprefixer": "10.5.5",
+    "oxlint": "1.82.0",
     "prettier": "3.9.6",
     "tailwindcss": "4.3.3",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   }
 }
