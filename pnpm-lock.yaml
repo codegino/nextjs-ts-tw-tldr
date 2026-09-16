@@ -31,8 +31,8 @@ importers:
         specifier: 19.3.0
         version: 19.3.0(@types/react@19.3.0)
       autoprefixer:
-        specifier: 10.5.6
-        version: 10.5.6(postcss@8.5.23)
+        specifier: 10.6.1
+        version: 10.6.1(postcss@8.5.23)
       oxfmt:
         specifier: 0.68.0
         version: 0.68.0
@@ -718,8 +718,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  autoprefixer@10.5.6:
-    resolution: {integrity: sha512-HiH4oYNc5+DQEx/b8FPfMj+WHH/WWUBmbN5r1Uf/ixtfyFkk+wGIlfJT/RD5eAyzlwkeYRtZUCI8qrEi26pl2g==, tarball: https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.6.tgz}
+  autoprefixer@10.6.1:
+    resolution: {integrity: sha512-cL1Qz6ADZhcEbny/8HPfe99J6HhNoYtpX2LFLIbhgGE7Q1hlQVkYFdetDN7Id3KiQxhDrHwzlHr/YQCnZ8+xSA==, tarball: https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.6.1.tgz}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1408,7 +1408,7 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  autoprefixer@10.5.6(postcss@8.5.23):
+  autoprefixer@10.6.1(postcss@8.5.23):
     dependencies:
       browserslist: 4.28.9
       caniuse-lite: 1.0.30001810
