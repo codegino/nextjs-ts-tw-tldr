@@ -1,6 +1,6 @@
 {
   "name": "nextjs-typescript-tailwind-boilerplate",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "author": {
     "name": "Carlo Gino Catapang",
     "url": "https://carlogino.com"
@@ -15,7 +15,7 @@
     "format:check": "oxfmt --check"
   },
   "dependencies": {
-    "next": "16.3.7",
+    "next": "16.3.8",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
